@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+header{
+    text-align:center;
+}
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+nav{
+    background-color:aqua;
+}
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav a{
+    color:red;
+    font-size: 30px;
+}
+
+div ul{
+    display:flex;
+    justify-content:space-between;
+    list-style:none;
+}
+.product{
+    max-width: 1200px;
+    margin: auto;
+}
+h{
+    margin-top:5px;
+}
