@@ -11,7 +11,8 @@ header{
     margin:auto;
 }
 nav{
-    background-color:aqua;
+    background-color:rgb(182, 255, 245);
+    border-radius: 5px;
 }
 nav ul{
     list-style:none;
@@ -30,10 +31,35 @@ div ul{
     justify-content:space-between;
     list-style:none;
 }
-.product{
-    max-width: 1200px;
+.products_menu{
+    
     margin: auto;
+    margin-top: 30px;
+    border: 1px solid lightblue;
+    width: 100%;
+    background-color: rgb(156, 156, 156);
+    border-radius: 10px;
 }
-h{
-    margin-top:5px;
+.products_menu ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+.products_menu li {
+    color: black;
+    cursor: pointer;
+    list-style: none;
+    
+}
+.product{
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    height:400px;
+    width: 300px;
 }
