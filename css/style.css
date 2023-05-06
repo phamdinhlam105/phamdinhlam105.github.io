@@ -4,31 +4,52 @@
     box-sizing:border-box;
 }
 header{
-    text-align:center;
+    background-image: url("../img/menubg.jpg");
+    background-position:center;
+    width:100%;
+    height:100px;
+    display:flex;
+}
+header h1{
+    font-size: 40px;
+    color: #fdffeb;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 10px #ff3300;
+    padding-top:20px;
+    padding-left: 10px;
 }
 .container{
-    max-width:1200px;
+    width:100%;
+    height:50px;
     margin:auto;
-}
-nav{
-    background-color:rgb(182, 255, 245);
     border-radius: 5px;
+
 }
-nav ul{
+
+.container ul{
     list-style:none;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    
+    margin-top:12px;
 }
-nav a{
-    color:red;
+.container li{
+}
+.container a{
+    color: #ffffff;
+
+    text-shadow: 2px 3px 6px #ff0000;
     font-size: 30px;
     text-decoration: none;
     font-weight: bold;
 }
+.container a:hover{
+    color: #fdffeb;
 
-div ul{
+   text-shadow: 0px 0px 14px #3860ff;
+}
+
+.product-hot ul{
     display:flex;
     justify-content:space-between;
     list-style:none;
@@ -90,29 +111,47 @@ div ul{
     font-size:20px;
 }
 #aboutus div{
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
+
+}
+h2{
+    margin-bottom: 10px;
 }
 #aboutus p{
     float:left;
 }
-#linhkien{
+#aboutus img{
     float:right;
+
 }
 
-#adress{
+#moreinfor{
     margin-top:10px;
     margin-left:auto;
     padding: 10px;
     width: 100%;
-    display:flex;
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
+    font-size:20px;
+    flex-wrap: wrap;
+}
+
+#adress{
+    float:right;
+    display: flex;
 }
 #adress img{
     float:left;
-    margin-right:100px;
 }
 #adress div{
     float:right;
-    font-size:20px;
+    width:300px
+}
+footer{
+    background-color: orangered;
+    color:white;
+    text-align: center;
+    padding-top:25px;
+    padding-bottom:25px;
+
 }
