@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing:border-box;
 }
+body{
+    background-image: url("../img/background.jpg");
+}
+/*header*/
+
 header{
     background-image: url("../img/menubg.jpg");
     background-position:center;
@@ -17,7 +22,9 @@ header h1{
     text-shadow: -1px -1px 10px #ff3300;
     padding-top:20px;
     padding-left: 10px;
+    background-image: none;
 }
+/* header menu*/
 .container{
     width:100%;
     height:50px;
@@ -33,8 +40,6 @@ header h1{
     align-items: center;
     margin-top:12px;
 }
-.container li{
-}
 .container a{
     color: #ffffff;
 
@@ -49,24 +54,12 @@ header h1{
    text-shadow: 0px 0px 14px #3860ff;
 }
 
-.product-hot ul{
-    display:flex;
-    justify-content:space-between;
-    list-style:none;
-}
-.product-hot {
-    margin-left:30px;
-    font-weight: bold;
-    font-size: larger;
-}
+/*product menu*/
+
 .products_menu{
-    
     margin: auto;
     margin-top: 30px;
-    border: 1px solid lightblue;
     width: 100%;
-    background-color: rgb(156, 156, 156);
-    border-radius: 10px;
     padding-bottom:10px;
     margin-bottom: 10px;
 }
@@ -75,16 +68,27 @@ header h1{
     justify-content: space-around;
     flex-wrap: wrap;
     word-wrap: break-word;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 20px;
+    background-color:rgb(161, 163, 163);
+    border: #ffffff solid 3px;
+    border-radius: 5px;
   }
+  
+
   
 .products_menu li {
     color: black;
     
     list-style: none;
     
+    border: 3px solid rgb(141, 141, 141);
+    border-radius: 5px;
+    margin: 20px 10px 20px 20px;
+    
+    
 }
+
 .product{
     border-width: 2px;
     border-radius: 5px;
@@ -93,13 +97,41 @@ header h1{
     height:400px;
     width: 300px;
 }
-.pc-set{
-    display: flex;
+select,option, #pc-set{
+    height: 40px;
+    width: 220px;
+    font-size:20px;
+    font-weight: bold;
+    border: #ffffff solid 3px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-style: none;
+    background-color:rgb(161, 163, 163);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-top:0px;
+    margin-bottom: -3px;
+    text-align: center;
+    z-index: 1000;
+    position: relative;
 }
+#pc-set{
+    width: 150px;
+}
+
+/*Information*/
+
 .information{
+    color:white;
     display:flex;
     justify-content: space-between;
     flex-direction: column;
+    margin-left:10px;
+    margin-right:10px;
+}
+.information img{
+    margin: 10px 10px 2px 2px;
 }
 .information div{
     float:right;
@@ -113,6 +145,9 @@ header h1{
 #aboutus div{
     width: 100%;
 
+}
+#aboutus div p{
+    max-width: 75%;
 }
 h2{
     margin-bottom: 10px;
@@ -135,7 +170,9 @@ h2{
     font-size:20px;
     flex-wrap: wrap;
 }
-
+#tuvan,#address p{
+    max-width: 40%;
+}
 #adress{
     float:right;
     display: flex;
