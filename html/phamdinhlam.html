@@ -36,7 +36,15 @@
       
         
         <div class="products_menu">
-          <h3 class="product-hot">Products</h3>
+          <form action="/action_page.php">
+            <select name="cars" id="menu-select">
+              <option value="Motherboard & CPU">Motherboard & CPU</option>
+              <option value="RAM">RAM</option>
+              <option value="Hard Disk">Hard Disk</option>
+              <option value="VGA">VGA</option>
+              <option value="Power Supply">Power Supply</option>
+            </select>
+          </form>
         <ul>
           <li>
             <div class="product">
@@ -58,9 +66,7 @@
             </div>
           </li>
           
-          
-        </ul>
-        <ul>
+        
           <li>
             <div class="product">
               
@@ -81,9 +87,6 @@
             </div>
           </li>
           
-          
-        </ul>
-        <ul>
           <li>
             <div class="product">
               
@@ -109,7 +112,9 @@
         <!--next products menu-->
 
         <div class="products_menu">
-          <h3 class="pc-set">Máy bộ cũ</h3>
+          <div id="pc-set">
+            <h3>Máy bộ cũ</h3>
+          </div>
         <ul>
           <li>
             <div class="product">
@@ -133,10 +138,9 @@
         </ul>
         
         </div>
-
-      <h3>Thông tin</h3>
+        <!-- Information-->
       <div class="information">
-        
+      <h2>Thông tin</h2>
         <div id="aboutus">
           <h2>Về chúng tôi</h2>
           
