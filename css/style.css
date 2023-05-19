@@ -5,7 +5,7 @@
 }
 body{
     background-image: url("../img/background.jpg");
-    padding: 10px 10px 10px 10px;
+    
 }
 /*header*/
 
@@ -28,7 +28,7 @@ header h1{
 /* header menu*/
 .container{
     width:100%;
-    height:50px;
+    height:100px;
     margin:auto;
     border-radius: 5px;
 
@@ -66,6 +66,8 @@ header h1{
     width: 100%;
     padding-bottom:10px;
     margin-bottom: 10px;
+    z-index: 300;
+    padding: 10px 10px 10px 10px;
     
 }
 .products_menu ul {
@@ -77,11 +79,11 @@ header h1{
     border: #ffffff solid 3px;
     border-radius: 5px;
     
-    background-color:rgb(161, 163, 163);
+    background-color:transparent;
   }
   
+/*product items*/
 
-  
 .products_menu li {
     color: black;
     list-style: none;   
@@ -89,6 +91,8 @@ header h1{
     min-width: 30%;
     padding-top:10px;
     padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right:20px;
 }
 
 .product{
@@ -96,15 +100,73 @@ header h1{
     border-radius: 5px;
     border-style: solid;
     border-color: rgb(255, 255, 255);
-    height:400px;
+    height:450px;
     font-size:18px;
     background-color:rgb(161, 163, 163);
     width: 300px;
     align-items: center;
+    z-index: 900;
 }
-select,option, #pc-set{
+.product p{
+    padding-top:10px;
+}
+.product:hover{
+    position:relative;
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+/*item type*/
+
+.brands{
+    display:inline-block;
+    justify-content: left;
+}
+.brands a{
+    text-decoration: none;
+    color:black;
+    display: block;
+}
+.brands div{
+    
     height: 40px;
     width: 220px;
+    font-size:20px;
+    font-weight: bold;
+    border: #ffffff solid 3px;
+    background-color:rgb(161, 163, 163);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: none;
+    text-align: center;
+    z-index: 100;
+    position:absolute;
+    margin-top:-33px;
+}
+#current-brand{
+    z-index: 500;
+}
+.brands:hover div{
+    position:relative;
+    margin-bottom:-3px;
+    margin-top:-19px;
+    
+}
+.brands:hover{
+    display:flex;
+}
+.brands div:hover a{
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+.brands div:hover{
+    transition: 0.5s;
+    background-color: rgb(0, 130, 153);
+}
+/*pc-set*/
+
+#pc-set{
+    height: 40px;
+    width: 150px;
     font-size:20px;
     font-weight: bold;
     border: #ffffff solid 3px;
@@ -112,20 +174,25 @@ select,option, #pc-set{
     background-color:rgb(161, 163, 163);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    border-bottom-style: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    padding-top:0px;
+    border-bottom: none;
     margin-bottom: -3px;
     text-align: center;
     z-index: 100;
     position: relative;
+    padding: 10px 10px 10px 10px;
 }
-#pc-set{
-    width: 150px;
+/*more*/
+.more{
+    font-size:18px;
+    text-align: center;
+    justify-items: center;
 }
-
+.more a{
+    color:white;
+}
+.more a:hover{
+    font-weight: bold;
+}
 /*Information*/
 
 .information{
