@@ -1,9 +1,8 @@
-/*@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) {
     body {
         zoom: (1349)/(480);
     }
 }
-*/
 body
 {
     padding: 0;
@@ -224,6 +223,9 @@ body
     display:inline-block;
     background-color: #FBF4DF;
     align-items: center;
+    z-index:2;
+    width:100%;
+    min-height:365px;
 }
 #tatcacombo,#thuonghang1,#thuonghang2{
     position:absolute;
@@ -232,7 +234,7 @@ body
     margin-left:-15px;
     max-width: 70%;
     min-width: 70%;
-    height:360px;
+    min-height:350px;
 }
 #tatcacombo{
     z-index: 2;
@@ -358,7 +360,7 @@ body
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin-top:380px;
+    margin-top:30px;
     align-items: center;
     padding-top:30px;
     padding-bottom: 5%;
