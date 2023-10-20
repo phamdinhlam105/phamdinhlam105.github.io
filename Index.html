@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Styles.css" />
+    <link href='https://fonts.googleapis.com/css?family=Montserrat Alternates' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Gia nguyen moc chau</title>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="top-menu">
+                <div id="logo"><img src="img/logo.png" alt="logo" width="60px" height="60px"></div>
+                <div><p>THỰC ĐƠN</p></div>
+                <div><p>ĐẶT BÀN</p></div>
+                <div><p>KHUYẾN MÃI</p></div>
+                <div><p>GIỚI THIỆU</p></div>
+                <div><p>TIN TỨC</p></div>
+                <div><p>LIÊN HỆ</p></div>
+                
+            </div>
+        </div>
+        <div class="side-nav">
+            <span id="phone"><i class="fa-solid fa-phone"></i></span>
+            <span id="mail"><i class="fa-solid fa-envelope"></i></span>
+            <span id="messenger"><i class="fa-brands fa-facebook-messenger"></i></span>
+        </div>
+    </header>
+    <div class="topbanner">
+        <div class="centertext">
+            <p>NHÀ HÀNG </br> GIA NGUYỄN MỘC CHÂU</p>
+        </div>
+        <div class="top-button">
+            <p>GHÉ THĂM NGAY</p>
+        </div>
+    </div>
+    <div class="khuyenmai">
+        <p class="menu-line">KHUYẾN MÃI HOT TRONG TUẦN</p>
+        <div class="menu">
+            <div><img src="img/image 1.jpg" alt="anh khuyen mai" width="400px" height="300px" ></div>
+            <div><img src="img/image 2.jpg" alt="anh khuyen mai" width="400px" height="300px"  ></div>
+        </div>
+    </div>
+    <div class="info">
+        <p class="menu-line">NHÀ HÀNG GIA NGUYỄN MỘC CHÂU</p>
+        <div class="info-menu">
+            <div class="menu-items">
+                <div><img src="img/info-image1.png" alt="anh gioi thieu" width="120px" height="100px"></div>
+                <div><p class="menu-line">Thịt bò tơ mới tập ăn cỏ:</br> Ngọt - Mềm - Thơm sữa -</br> Tươi ngon.</p></div>
+            </div>
+            <div class="menu-items">
+                <div><img src="img/info-image2.png" alt="anh gioi thieu" width="120px" height="100px"></div>
+                <div><p class="menu-line">Chế biến thành 40 món</br> đặc sản: Hấp - nướng</br> - Chao - Xào - Nộm...</p></div>
+            </div>
+            <div class="menu-items">
+                <div><img src="img/info-image3.png" alt="anh gioi thieu" width="120px" height="100px"></div>
+                <div><p class="menu-line">Không gian núi rừng Mộc</br> Châu: Ấm cúng - Độc lạ - </br>Tha hồ check-in</p></div>
+            </div>
+            <div class="menu-items">
+                <div><img src="img/info-image4.png" alt="anh gioi thieu" width="120px" height="100px"></div>
+                <div><p class="menu-line">Phục vụ miễn chê: Chú đáo</br> - Tận tình - Hết mình vì</br> thực khách</p></div>
+            </div>
+        </div>
+    </div>
+    <div class="combo">
+        <div class="combo-menu">
+            <button id="comboitem1" onclick="changecombo1()" class="combo-items" ><p class="menu-line">MENU</p></button>
+            <button id="comboitem2" onclick="changecombo2()" class="combo-items"><p class="menu-line">COMBO THƯỢNG HẠNG</p></button>
+            <button id="comboitem3" onclick="changecombo3()" class="combo-items"><p class="menu-line">COMBO MỸ VỊ</p></button>  
+        </div>
+        <div class="combo-div">
+            <div id="tatcacombo">
+                <div class="combo-detail">
+                    <p>ĂN NO&emsp;  HẤP-CUỐN &emsp; MÓN XÀO &emsp; CÁC MÓN LẨU &emsp; MÓN ẾCH &emsp; CƠM CANH</br> 
+                        NHÚNG - CHẤM&emsp;  MÓN HEO &emsp; KHAI VỊ&emsp;  NƯỚNG - CHAO&emsp;  MÓN GÀ &emsp; RAU - SALAD </br>
+                    ĐỒ NHÚNG LẨU (GỌI THÊM) &emsp; HẲI SẢN &emsp; NƯỚC NGỌT</p>
+                    <div class="combo-button"><p>XEM TẤT CẢ</p></div>
+                </div>
+                <div class="combo1-all">
+                    <div class="combo1">
+                        <img src="img/combo1.jpg" alt="anh combo1">
+                        <p class="combo1-name">LOREM IPSUM</p>
+                        <p class="combo1-price">199.000đ</p>
+                        <div class="combo1-select">
+                            <div class="combo1-button">
+                                <p>CHI TIẾT</p>
+                            </div>
+                            <div class="combo1-button">
+                                <p>ĐẶT MÓN</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="combo1">
+                        <img src="img/combo2.jpg" alt="anh combo1">
+                        <p class="combo1-name">LOREM IPSUM</p>
+                        <p class="combo1-price">199.000đ</p>
+                        <div class="combo1-select">
+                            <div class="combo1-button">
+                                <p>CHI TIẾT</p>
+                            </div>
+                            <div class="combo1-button">
+                                <p>ĐẶT MÓN</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="combo1">
+                        <img src="img/combo3.jpg" alt="anh combo1">
+                        <p class="combo1-name">LOREM IPSUM</p>
+                        <p class="combo1-price">199.000đ</p>
+                        <div class="combo1-select">
+                            <div class="combo1-button">
+                                <p>CHI TIẾT</p>
+                            </div>
+                            <div class="combo1-button">
+                                <p>ĐẶT MÓN</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="combo1">
+                        <img src="img/combo4.jpg" alt="anh combo1">
+                        <p class="combo1-name">LOREM IPSUM</p>
+                        <p class="combo1-price">199.000đ</p>
+                        <div class="combo1-select">
+                            <div class="combo1-button">
+                                <p>CHI TIẾT</p>
+                            </div>
+                            <div class="combo1-button">
+                                <p>ĐẶT MÓN</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="combothuonghang" id="thuonghang1">
+                <div class="thuonghang-text">
+                    <h2>COMBO THƯỢNG HẠNG</h2>
+                    <div class="thuonghang-price">
+                        <p>1.990.000đ</p>
+                        <div class="combo1-button"><p>ĐẶT MÓN</p></div>
+                    </div>
+                    <p>Thực đơn 6 người + Giảm 50% giá Pepsi (lon)</p>
+                    <div class="thuonghang-list">
+                        <div class="thuonghang-item">
+                            <p>1. Lorem ipsum dolor</p> <p class="combo1-price">199.000đ</p>
+                        </div>
+                        <div class="thuonghang-item">
+                            <p>1. Lorem ipsum dolor</p> <p class="combo1-price">199.000đ</p>
+                        </div>
+                        <div class="thuonghang-item">
+                            <p>1. Lorem ipsum dolor</p> <p class="combo1-price">199.000đ</p>
+                        </div>
+                        <div class="thuonghang-item">
+                            <p>1. Lorem ipsum dolor</p> <p class="combo1-price">199.000đ</p>
+                        </div>
+                        <div class="thuonghang-item">
+                            <p>1. Lorem ipsum dolor</p> <p class="combo1-price">199.000đ</p>
+                        </div>
+                        <div class="thuonghang-item">
+                            <p>1. Lorem ipsum dolor</p> <p class="combo1-price">199.000đ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="thuonghang-img">
+                    <img src="img/thuonghang.jpg" alt="anh combo thuong hang" width="450px" height="250px">
+                </div>
+            </div>
+            <div class="combothuonghang" id="thuonghang2">
+                <div class="thuonghang-text">
+                    <h2>COMBO THƯỢNG HẠNG</h2>
+                    <div class="thuonghang-price">
+                        <p>1.990.000đ</p>
+                        <div class="combo1-button"><p>ĐẶT MÓN</p></div>
+                    </div>
+                    <p>Thực đơn 6 người + Giảm 50% giá Pepsi (lon)</p>
+                    <div class="thuonghang-list">
+                        <div class="thuonghang-item">
+                            <p>1. Lorem ipsum dolor</p> <p class="combo1-price">199.000đ</p>
+                        </div>
+                        <div class="thuonghang-item">
+                            <p>1. Lorem ipsum dolor</p> <p class="combo1-price">199.000đ</p>
+                        </div>
+                        <div class="thuonghang-item">
+                            <p>1. Lorem ipsum dolor</p> <p class="combo1-price">199.000đ</p>
+                        </div>
+                        <div class="thuonghang-item">
+                            <p>1. Lorem ipsum dolor</p> <p class="combo1-price">199.000đ</p>
+                        </div>
+                        <div class="thuonghang-item">
+                            <p>1. Lorem ipsum dolor</p> <p class="combo1-price">199.000đ</p>
+                        </div>
+                        <div class="thuonghang-item">
+                            <p>1. Lorem ipsum dolor</p> <p class="combo1-price">199.000đ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="thuonghang-img">
+                    <img src="img/myvi.jpg" alt="anh combo thuong hang" width="450px" height="250px">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="media">
+        <h2>NHÀ HÀNG GIA NGUYỄN MỘC CHÂU VIDEO</h2>
+        <div class="clip">
+            <div class="big-clip"><img src="img/youtube.jpg" alt="clip youtube" ></div>
+            <div class="mini-clip">
+                <span class="symbol"><i class="fa-solid fa-circle-arrow-left"></i></span>
+                <div><img src="img/youtube.jpg" alt="clip youtube" ></div>
+                <div><img src="img/youtube.jpg" alt="clip youtube" ></div>
+                <div><img src="img/youtube.jpg" alt="clip youtube" ></div>
+                <span class="symbol"><i class="fa-solid fa-circle-arrow-right"></i></span>
+            </div>
+        </div>
+        <h2>GALLERY HÌNH ẢNH</h2>
+        <div class="image">
+            <button onclick="changeimage1()" class="normal-img"><img id="gallery1" src="img/gallery2.jpg" alt="anh gallery" ></button>
+            <div class="big-img"><img id="gallery2" src="img/gallery1.jpg" alt="anh gallery" ></div>    
+            <button onclick="changeimage3()" class="normal-img"><img id="gallery3" src="img/gallery3.jpg" alt="anh gallery"></button>
+        </div>
+    </div>
+    <div class="feedback">
+        <h2>CẢM NHẬN CỦA KHÁCH HÀNG</h2>
+        <div class="feedback-all">
+            <div class="feedback-detail">
+                <div class="comment">
+                    <img src="img/feedback.jpg" alt="anh feedback">
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>
+                </div>
+                <div class=comment-user>
+                    <div class="avt"><img src="img/avt.jpg" alt="anh avt"></div>
+                    <div>
+                        <p>Anh Thiện</p>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="feedback-detail">
+                <div class="comment">
+                    <img src="img/feedback.jpg" alt="anh feedback">
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>
+                </div>
+                <div class=comment-user>
+                    <div class="avt"><img src="img/avt.jpg" alt="anh avt"></div>
+                    <div>
+                        <p>Anh Thiện</p>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="feedback-detail">
+                <div class="comment">
+                    <img src="img/feedback.jpg" alt="anh feedback">
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>
+                </div>
+                <div class=comment-user>
+                    <div class="avt"><img src="img/avt.jpg" alt="anh avt"></div>
+                    <div>
+                        <p>Anh Thiện</p>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="booking">
+        <div class="booking-top">
+            <h2>ĐẶT BÀN ONLINE</h2>
+        </div>
+        <div class="booking-bot">
+            <div class="booking-template">
+                <h3>THÔNG TIN KHÁCH HÀNG</h3>
+                <p>(Vui lòng đặt bàn trước giờ dùng bữa ít nhất 1 tiếng, để đặt bàn nhanh nhất xin vui lòng liên hệ
+                     Hotline: <b>0909.090.090</b>)
+                </p>
+                <div class="booking-info" id="name">
+                    <label for="title">Họ tên(*):</label>
+                    <textarea name="tittle"></textarea>
+                    
+                <div id="tel">
+                    <div class="booking-info" id="tel1">
+                        <label for="title">Điện thoại di động (*):</label>
+                        <textarea name="tittle"></textarea>
+                    </div>
+                    <div class="booking-info" id="email">
+                        <label for="title">Email:</label>
+                        <textarea name="tittle"></textarea>
+                    </div>
+                </div>
+                <div class="booking-info" id="quantity">
+                    <label for="title">Số lượng khách (*):</label>
+                    <textarea name="tittle"></textarea>
+                </div>
+                <div id="date-line">
+                    <div class="booking-info">
+                        <label for="title">Ngày đặt bàn (*):</label>
+                        <textarea name="tittle"></textarea>
+                    </div>
+                    <div class="time"><p>7 giờ</p></div>
+                    <div class="time"><p>00 phút</p></div>
+                    
+                </div>
+                <div class="booking-info" id="message">
+                    <label for="title">Lời nhắn yêu cầu đặt bàn:</label>
+                    <textarea rows="5" name="tittle"></textarea>
+                </div>
+                <button class="booking-button"><div><p>ĐẶT BÀN</p></div></button>
+            </div>
+        </div>
+    </div>
+    <div class="news">
+        <h2>TIN TỨC & SỰ KIỆN</h2>
+        <div class="news-all">
+            <div class="big-news">
+                <img src="img/news1.jpg" alt="anh tin tuc">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+                <p>10/10/2023</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore 
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                    exercitation ullamco laboris nisi ut aliquip ex ea 
+                    commodo consequat...</p>
+            </div>
+            <div class="side-news">
+                <div class="mini-news">
+                    <div class="short-news">
+                        <img src="img/news2.jpg" alt="anh tin tuc">
+                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                        <p>10/10/2023</p>
+                    </div>
+                    <div class="short-news">
+                        <img src="img/news3.jpg" alt="anh tin tuc">
+                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                        <p>10/10/2023</p>
+                    </div>
+                </div>
+                <div class="mini-news">
+                    <div class="short-news">
+                        <img src="img/news3.jpg" alt="anh tin tuc">
+                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                        <p>10/10/2023</p>
+                    </div>
+                    <div class="short-news">
+                        <img src="img/news4.jpg" alt="anh tin tuc">
+                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                        <p>10/10/2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="beforefooter">
+        <div>
+            <p>1.000HA</br>LOREM IPSUM</p>
+        </div>
+        <div>
+            <p>100+</br>LOREM IPSUM</p>
+        </div>
+        <div>
+            <p>99,999+</br>LOREM IPSUM</p>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-top">
+            <div class="footer-info">
+                <h3>CÔNG TY CỔ PHẦN DỊCH VỤ DU
+                    LỊCH GIA NGUYỄN MỘC CHÂU
+                </h3>
+                <p>MST: 5500649708</p>
+                <p>Số điện thoại: 0868.951.999</p>
+                <p>Địa chỉ: Số 238, Đường Hoàng Quốc Việt, Tiểu khu 70,
+                     Thị trấn Nt Mộc Châu, Huyện Mộc Châu, Tỉnh Sơn La.</p>
+            </div>
+            <div class="footer-info">
+                <h3>Về Gia Nguyễn Mộc Châu</h3>
+                <div class="about">
+                    <div>
+                        <p>Giới thiệu</p>
+                        <p>Thực đơn</p>
+                        <p>Đặt bàn</p>
+                        <p>Tin tức</p>
+                    </div>
+                    
+                    <div>
+                        <p>Liên hệ</p>
+                        <p>Khuyến mãi</p>
+                        <p>Câu hỏi thường gặp</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-info">
+                <img src="img/ggmap.jpg" alt="google map">
+            </div>
+        </div>
+       
+    </footer>
+    <div class="footer-bot">
+        <div>
+            <p>Copyright © Gia Nguyễn Mộc Châu - Thiết kế web: BIV Marketing</p>
+        </div>
+        <div class="footer-bot-right">
+            <div><p>Chính sách quy định | Chính sách bảo mật</p></div>
+            <div class="footer-img"><img src="img/dathongbao.jpg"></div>
+        </div>
+    </div>
+    <script>
+        function changecombo1()
+        {
+            document.getElementById("tatcacombo").style.zIndex="1";
+            document.getElementById("thuonghang1").style.zIndex="0";
+            document.getElementById("thuonghang2").style.zIndex="0";
+        }
+        function changecombo2()
+        {
+            document.getElementById("tatcacombo").style.zIndex="0";
+            document.getElementById("thuonghang1").style.zIndex="1";
+            document.getElementById("thuonghang2").style.zIndex="0";
+        }
+        function changecombo3()
+        {
+            document.getElementById("tatcacombo").style.zIndex="0";
+            document.getElementById("thuonghang1").style.zIndex="0";
+            document.getElementById("thuonghang2").style.zIndex="1";
+        }
+        function changeimage1(){
+            const input1=document.getElementById("gallery1").src;
+            const input2=document.getElementById("gallery2").src;
+            const input3=document.getElementById("gallery3").src;
+            document.getElementById("gallery1").src=input3;
+            document.getElementById("gallery2").src=input1;
+            document.getElementById("gallery3").src=input2;
+
+        }
+        function changeimage3(){
+            const input1=document.getElementById("gallery1").src;
+            const input2=document.getElementById("gallery2").src;
+            const input3=document.getElementById("gallery3").src;
+            document.getElementById("gallery1").src=input2;
+            document.getElementById("gallery2").src=input3;
+            document.getElementById("gallery3").src=input1;
+        }
+    </script>
+</body>
+
+</html>

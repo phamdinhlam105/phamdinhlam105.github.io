@@ -1,0 +1,685 @@
+@media screen and (min-width: 480px) {
+    body {
+        zoom: (1349)/(480);
+    }
+}
+body
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+.nav
+{
+    position:fixed;
+    margin-top: 0;
+    height: 70px;
+    width: 100%;
+    background-color: #F1B357;
+    z-index:100;
+}
+.nav .top-menu
+{
+    height: 60px;
+    padding-bottom: 0px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top:5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo
+{
+    padding:0,0,0,0;
+    margin:0,0,0,0;
+    width: 60px;
+    height: 60px;
+}
+.top-menu p{
+    font-family:'Montserrat Alternates';
+    font-weight:bolder;
+    font-size:15px;
+    color:#284C28;
+}
+.top-menu div
+{
+    padding: 0;
+}
+.side-nav{
+    position:fixed;
+    right:3%;
+    top:50%;
+    font-size:30px;
+    z-index:2;
+    color:white;
+}
+.side-nav span{
+    display:block;
+    border-radius:100%;
+    height:50px;
+    width: 50px;
+    margin-top:10px;
+    text-align: center;
+}
+.side-nav i{
+    position:relative;
+    margin-top:9px;
+}
+#phone{
+    background-color: #C73A32;
+}
+#mail{
+    background-color:#F4CB76;
+}
+#messenger{
+    background-color: #58AFF6;
+}
+.topbanner
+{
+    display:flex;
+    background-image: url("../img/topimage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:500px;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.centertext
+{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+}
+.top-button
+{
+    width: 200px;
+    height: 50px;
+    background-color: #F1B357;
+    color:#284C28;
+    font-size: 23px;
+    font-weight: bolder;
+    padding-left:10px;
+    padding-right: 10px;
+    justify-items: center;
+    text-align: center;
+    padding-top:0;
+    padding-bottom: 0;
+}
+.top-button p{
+    margin-top: 13px;
+    padding:10;
+}
+.menu-line{
+    text-align: center;
+    color:#284C28;
+    font-size: 23px;
+    font-weight: bolder;
+}
+.khuyenmai{
+    width: 100%;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.khuyenmai p{
+    text-align: center;
+    color:#284C28;
+    font-size: 23px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+.menu
+{
+    display:flex;
+    justify-content: center;
+    margin-left:15%;
+    margin-right:15%;
+}
+.menu img{
+    max-width: 90%;
+    margin-left:10px;
+    margin-right:10px;
+}
+.info
+{
+    width: 100%;
+    background-color: #FBF4DF;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.info-menu{
+    padding-left: 10%;
+    padding-right:10%;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:auto;
+    max-width: 100%;
+}
+.menu-items p{
+    font-size:15px;
+}
+.menu-items img{
+    max-width: 90%;
+}
+.combo{
+    margin-top:30px;
+    background-color:#FBF4DF;
+    margin-left:15%;
+    margin-right:15%;
+    padding-top:15px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:15px;
+}
+.combo-menu{
+    display:flex;
+    justify-content:space-between;
+    background-color: #284C28;
+    min-height:60px;
+}
+.combo-menu button{
+    text-align: center;
+}
+#comboitem1{
+    width: 25%;
+}
+#comboitem2{
+    width: 45%;
+}
+#comboitem3{
+    width:30%;
+}
+.combo-items{
+    background-color: transparent;
+    border:none;
+    height:40px;
+    margin-top:10px;
+    margin-bottom:10px;
+    cursor: pointer;
+}
+.combo-items p{
+    margin:auto;
+    font-size: 25px;
+    color:white;
+}
+#comboitem2{
+    border-left: solid white 3px;
+    border-right:solid white 3px;
+}
+.combo-div{
+    display:inline-block;
+    background-color: #FBF4DF;
+    align-items: center;
+}
+#tatcacombo,#thuonghang1,#thuonghang2{
+    position:absolute;
+    z-index: 0;
+    background-color: #FBF4DF;
+    margin-left:-15px;
+    max-width: 70%;
+    min-width: 70%;
+    height:360px;
+}
+#tatcacombo{
+    z-index: 2;
+}
+.combo-detail{
+    display: flex;
+    font-weight: bolder;
+    padding-left: 5%;
+    justify-content: space-between;
+}
+.combo-button{
+    margin-top:10px;
+    width: 150px;
+    height: 45px;
+    background-color: #284C28;
+    color:#F1B357;
+    font-size: 18px;
+    font-weight: bolder;
+    padding-left:10px;
+    padding-right: 10px;
+    text-align: center;
+    margin-right:10px;
+}
+
+.combo-button p{
+    margin-top: 13px;
+    padding:10;
+}
+.combo1-all{
+    display:flex;
+    justify-content: space-between;
+    margin-left:15px;
+    margin-right:15px;  
+}
+.combo1{
+    max-width: 25%;
+    min-width: 24%;
+}
+.combo1 img{
+    max-width: 100%;
+    min-width: 100%;
+}
+.combo1-name{
+    color:#284C28;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.combo1-price{
+    margin-top:-2px;
+    font-family: 'Lobster';
+    color:#CE1124;
+    margin-bottom:0;
+}
+.combo1-select{
+    display:flex;
+}
+.combo1-button{
+    font-size: 12px;
+    font-weight: bolder;
+    width: 70px;
+    height:30px;
+    background-color:#F1B357 ;
+    color:#284C28;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.combothuonghang
+{
+    display:flex;
+    justify-content: space-between;
+}
+.combothuonghang div{
+    min-width: 40%;
+}
+.thuonghang-text{
+    padding-left:15px;
+}
+.thuonghang-text p{
+    margin-top:0;
+    font-weight: bolder;
+    font-size:15px;
+}
+.combothuonghang .thuonghang-img{
+    margin-top:30px;
+    margin-left:30px;
+}
+.thuonghang-img img{
+    min-width: 100%;
+    max-width: 100%;
+}
+.thuonghang-text h2{
+    color:#284C28;
+    font-weight: bolder;
+}
+.thuonghang-price {
+    margin-top:-20px;
+    font-size:20px;
+    font-family: 'Lobster';
+    color:#CE1124;
+    display:flex;
+    justify-content: space-between;
+}
+.thuonghang-price div{
+    margin-top:10px;
+    padding-top:6px;
+    background-color:#F1B357 ;
+    color:#284C28;
+    font-family:'Roboto';
+    padding-bottom:0;
+    height:20px;
+    width:80px;
+}
+.thuonghang-item{
+    display:flex;
+    justify-content: space-between;
+    margin-top:-3px;
+}
+.media{
+    background-image: url("../img/youtubebg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top:380px;
+    align-items: center;
+    padding-top:30px;
+    padding-bottom: 5%;
+}
+.media h2{
+    text-align: center;
+    color:white;
+    font-weight: bolder;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.clip{
+    background-color:#284C28;
+    margin:auto;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.big-clip{
+    width:100%;
+}
+.big-clip img{
+    max-width: 100%;
+    min-width: 100%;
+}
+.mini-clip{
+    margin-top:20px;
+    padding-bottom: 20px;
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.mini-clip div{
+    width:30%;
+    padding:0;
+    margin-left:5px;
+    margin-right:5px;
+}
+.mini-clip img{
+    max-width: 100%;
+    min-width: 100%;
+}
+.symbol{
+    width: 3%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.symbol i{
+    max-width: 100%;
+    margin-top:2px;
+    margin-left:2px;
+    background-color: white;
+    border-radius: 100%;
+    border:solid white 1px;
+    color:gray;
+    font-size: 15px;
+}
+
+.image{
+    margin:auto;
+    width: 70%;
+    display:flex;
+    justify-content: center;
+}
+.image img{
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+}
+.normal-img{
+    width:20%;
+    aspect-ratio: 1,2;
+    z-index: 0;
+    background:transparent;
+    border: solid white 15px;
+    padding:0;
+    margin-top:50px;
+}
+
+.big-img{
+    margin-bottom: -5%;
+    width:40%;
+    aspect-ratio: 1,2;
+    margin-left:-5%;
+    margin-right:-5%;
+    border: solid white 15px;
+    z-index:2;
+}
+.feedback{
+    background-color: #FBF4DF;
+    width: 100%;
+    text-align: center;
+    padding-top:50px;
+}
+.feedback h2{
+    color:#284C28; 
+}
+.feedback-all{
+    display:flex;
+    justify-content: space-between;
+    margin-left:20%;
+    margin-right:20%;
+}
+.feedback-detail{
+    width: 250px;
+    height:500px;
+}
+.comment{
+    background-color:white;
+    padding:10,10,10,10;
+
+}
+.comment img{
+    margin-top:10px;
+    max-width:90%;
+    max-height:70%;
+}
+.comment p{
+    word-wrap: break-word;
+}
+.comment-user{
+    display:flex;
+}
+.avt img{
+    border-radius: 50%;
+}
+.comment-user p{
+    margin-left:10px;
+    font-size:16px;
+    font-weight: bold;
+    font-style: italic;
+    color: #284C28;
+}
+.booking-top{
+    background-image: url("../img/booking.jpg");
+    background-size:auto;
+    height:300px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.booking-top h2{
+    color:white;
+    text-align: center;
+}
+.booking-bot{
+    display:flex;
+    justify-content: center;
+}
+.booking-template{
+    border: solid black 1px;
+    border-radius:20px;
+    width:60%;
+    padding-top:30px;
+    padding-left:20px; 
+    padding-right:20px;
+    margin-top:-80px;
+    z-index:5;
+    background-color: white;
+}
+#tel,#date-line{
+    display:flex;
+    justify-content: space-between;
+}
+.booking-info{
+    display:block;
+}
+.booking-info label{
+    position: absolute;
+    margin-left:20px;
+    margin-top:20px;
+    z-index: 20;
+    font-weight: bold;
+    
+}
+.booking-info textarea{
+    position:relative;
+    resize:none;
+    margin-bottom: 0;
+    padding-top:5px;
+    font-size:17px;
+    max-height:100%;
+    margin-top:10px;
+    border-radius: 30px;
+    background-color: #D9D9D9;
+    border:none;
+    max-width: 100%;
+    min-width: 100%;
+    margin-top:10px;
+    font-size:20px; 
+}
+
+.time{
+    margin-left:10px;
+    max-height:100%;
+    width:160px;
+    margin-top:10px;
+    border-radius: 30px;
+    background-color: #D9D9D9;
+    padding-left:20px;
+    max-width: 23%;
+    min-width: 23%;
+    font-weight: bold;
+}
+
+#tel div{
+    min-width: 48%;
+}
+#date-line .booking-info{
+    min-width: 45%;
+}
+#name textarea{
+    text-indent:90px;
+}
+#email textarea{
+    text-indent:70px;
+}
+#tel1 textarea,#quantity textarea{
+    text-indent: 180px;
+}
+#date-line textarea{
+    text-indent:150px;
+}
+#message textarea{
+    text-indent: 220px;
+}
+.booking-button{
+    border:none;
+    background-color: #284C28;
+    width: 30%;
+    height:40px;
+    border-radius: 30px;
+    text-align: center;
+    padding-top:0;
+    cursor: pointer;
+    margin-left:33%;
+    margin-top:20px;
+    margin-bottom:20px;
+    color:#F1B357;
+    font-weight: bold;
+}
+.news{
+    background-color: #FBF4DF;
+    padding-left:15%;
+    padding-right:15%;
+    padding-top:15px;
+    text-align: center;
+    color:#284C28;
+    font-weight: bold;
+    margin-top:40px;
+    padding-bottom: 20px;
+}
+.news-all,.side-news{
+    display:flex;
+    justify-content: space-between;
+    color:black;
+}
+.big-news,.side-news{
+    width:49%;
+    text-align: left;
+    font-weight: normal;
+}
+.short-news{
+    width: 90%;
+}
+
+.news-all img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.beforefooter{
+    padding-left:15%;
+    padding-right:15%;
+    display:flex;
+    justify-content: space-between;
+    background-color: #284C28;
+    color:white;
+    text-align: center;
+    font-weight: bolder;
+    font-size:25px
+}
+footer{
+    padding-top:25px;
+    padding-left:15%;
+    padding-right:15%;
+    background-color: #FBF4DF;
+}
+.footer-top,.about{
+    display:flex;
+    justify-content: space-between;
+    color:#284C28;
+}
+.footer-top h3{
+    font-weight: bolder;
+}
+.footer-info{
+    width:30%;
+}
+.footer-info img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.footer-bot{
+    
+    display:flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top:10px;
+}
+.footer-bot-right{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bot-right div{
+    margin-left:5px;
+}
